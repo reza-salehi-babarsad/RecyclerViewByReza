@@ -2,10 +2,7 @@ package com.rezoo.recyclerviewtest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.LinearLayout
-import android.widget.TextView
+import android.widget.*
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -32,6 +29,7 @@ class MainActivity : AppCompatActivity() {
             todoList.add(todo)
             adapter.notifyItemInserted(todoList.size-1)
         }
+        Toast.makeText(this,"hiii",Toast.LENGTH_LONG).show()
 
 
     }
