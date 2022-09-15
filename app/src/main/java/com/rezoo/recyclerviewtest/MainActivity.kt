@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
             todoList.add(todo)
             adapter.notifyItemInserted(todoList.size-1)
         }
-        Toast.makeText(this,"hiii",Toast.LENGTH_LONG).show()
 
 
     }
